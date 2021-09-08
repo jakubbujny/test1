@@ -15,4 +15,4 @@ jobs:
         id: test
         run: |
           echo "${{github.event_name}}"
-          echo "${{github.event}}"
+          echo "${{github.event.ref}}"
