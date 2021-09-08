@@ -9,7 +9,6 @@ on:
 
 jobs:
   terraform:
-    strategy:
     runs-on: ubuntu-latest
     steps:
       - name: test
